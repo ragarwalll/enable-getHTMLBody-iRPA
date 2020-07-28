@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<USER>
+	<BREAKPOINTS />
+	<BOOKMARKS />
+	<FINDHISTORY>
+		<FINDWHAT><![CDATA[getHTMLBody]]></FINDWHAT>
+	</FINDHISTORY>
+	<DEBUGTRACEFINDHISTORY />
+	<OPENDOCS>
+		<OPENDOC LineNumber="65" SearchPath="PROCESS[@Name='GLOBAL']/SCRIPTS/SCRIPT[@Name='EmailWorflow']" Offset="0" Length="0" />
+		<OPENDOC LineNumber="875" SearchPath="PROCESS[@Name='GLOBAL']/SCRIPTS/SCRIPT[@Name='Outlook']" Offset="0" Length="0" />
+	</OPENDOCS>
+	<PROPERTIES>
+		<CurPerspective><![CDATA[2]]></CurPerspective>
+		<DebugTester><![CDATA[ctx.outlook.init();
+ctx.outlook.mail.searchByCriteria({
+        subject: "Coffee%",
+        dontThrowExceptionIfNoMailFound: true
+    });
+	var mails = ctx.outlook.mail.getFilteredTable();
+ctx.outlook.mail.getHTMLBody(0)]]></DebugTester>
+	</PROPERTIES>
+	<WATCHES />
+	<APPLIFILTERS />
+	<EVENTFILTERS />
+	<WORKFLOW_MOSTUSED />
+</USER>

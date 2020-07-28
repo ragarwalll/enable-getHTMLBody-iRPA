@@ -1,0 +1,32 @@
+﻿{"ts":"18:31:50.135","ctx":"Event","event":"EmailWorflow","appliName":"GLOBAL","appliInst":0,"pageName":"SYSTRAY1","pageInst":0,"data":{}}
+{"ts":"18:31:50.155","ctx":"State","type":"scenario","name":"EmailWorflow","id":67,"action":"start","appliName":"GLOBAL","parentId":61,"data":{"ctxType":"ctx.application","name":"GLOBAL","instance":0,"data":{"ctxType":"ctx.dataClass","appliName":"GLOBAL","appliInst":0,"currentDir":"C:\\Users\\I516384\\Documents\\SAP\\Intelligent RPA\\Desktop Studio\\enable-getHTMLBody-iRPA\\log","currentURL":"C:\\Users\\I516384\\Documents\\SAP\\Intelligent RPA\\Desktop Studio\\enable-getHTMLBody-iRPA\\bin","execDir":"C:\\Program Files (x86)\\SAP\\Intelligent RPA\\Desktop Agent\\","resourceURL":"C:\\Users\\I516384\\Documents\\SAP\\Intelligent RPA\\Desktop Studio\\enable-getHTMLBody-iRPA\\bin","serverURL":"C:\\Users\\I516384\\Documents\\SAP\\Intelligent RPA\\Desktop Studio\\enable-getHTMLBody-iRPA\\server"}}}
+{"ts":"18:31:50.169","ctx":"State","type":"once","name":"timeout(EmailWorflow)","id":68,"action":"set","parentName":"EmailWorflow","parentId":67}
+{"ts":"18:31:50.178","ctx":"State","type":"step","name":"Init_Outlook","id":70,"action":"add","appliName":"GLOBAL","parentName":"EmailWorflow","parentId":67}
+{"ts":"18:31:50.185","ctx":"State","type":"step","name":"Custom","id":72,"action":"add","appliName":"GLOBAL","parentName":"EmailWorflow","parentId":67}
+{"ts":"18:31:50.191","ctx":"State","type":"step","name":"Init_Outlook","id":70,"action":"start","appliName":"GLOBAL","parentName":"EmailWorflow","parentId":67}
+{"ts":"18:31:50.202","ctx":"State","type":"once","name":"timeout(Init_Outlook)","id":73,"action":"set","parentName":"Init_Outlook","parentId":70}
+{"ts":"18:31:50.210","ctx":"Action","action":"ctx.workflow","params":["EmailWorflow","5e51cc9a-89d1-446f-ba38-8438ef016726"],"parentId":70}
+{"ts":"18:31:50.238","ctx":"State","type":"once","name":"timeout(Init_Outlook)","id":73,"action":"reset","parentName":"Init_Outlook","parentId":70}
+{"ts":"18:31:50.250","ctx":"State","type":"step","name":"Init_Outlook","id":70,"action":"end","appliName":"GLOBAL","parentId":70}
+{"ts":"18:31:50.257","ctx":"State","type":"step","name":"Custom","id":72,"action":"start","appliName":"GLOBAL","parentName":"EmailWorflow","parentId":67}
+{"ts":"18:31:50.264","ctx":"State","type":"once","name":"timeout(Custom)","id":74,"action":"set","parentName":"Custom","parentId":72}
+{"ts":"18:31:50.276","ctx":"Action","action":"ctx.workflow","params":["EmailWorflow","ca394536-e667-4247-a3df-b67922569397"],"parentId":72}
+{"ts":"18:31:50.290","ctx":"Action","action":"ctx.outlook.note.resetNoteCollection","params":[],"parentId":72}
+{"ts":"18:31:50.296","ctx":"Action","action":"ctx.outlook.mail.searchByCriteria","params":[{"subject":"Coffee%","dontThrowExceptionIfNoMailFound":true}],"parentId":72}
+{"ts":"18:31:50.303","ctx":"Action","action":"ctx.outlook.mail.search","params":[{"filter":"urn:schemas:httpmail:subject like 'Coffee%'","dontThrowExceptionIfNoMailFound":true}],"parentId":72}
+{"ts":"18:31:50.327","ctx":"Action","action":"ctx.outlook.getStore","params":[{"filter":"urn:schemas:httpmail:subject like 'Coffee%'","dontThrowExceptionIfNoMailFound":true}],"parentId":72}
+{"ts":"18:31:50.350","ctx":"Action","action":"ctx.outlook.folder.getFolder","params":[{}],"parentId":72}
+{"ts":"18:31:50.521","ctx":"Action","action":"ctx.outlook.mail.getFilteredTable","params":[],"parentId":72}
+{"ts":"18:31:50.537","ctx":"Action","action":"ctx.outlook.mail.retrieveMail","params":[{"EntryID":"EF000000ABCAA84A62FDDA4699CC6EB0BC8CA863645D2700","StoreID":"0000000038A1BB1005E5101AA1BB08002B2A56C20000454D534D44422E444C4C00000000000000001B55FA20AA6611CD9BC800AA002FC45A0C000000726168756C2E6167617277616C3036407361702E636F6D002F6F3D45786368616E67654C6162732F6F753D45786368616E67652041646D696E6973747261746976652047726F7570202846594449424F484632335350444C54292F636E3D526563697069656E74732F636E3D31396463373835303563366134306665396338313432353963383437386465332D4935313633383400E94632F442000000020000001000000072006100680075006C002E006100670061007200770061006C003000360040007300610070002E0063006F006D0000000000"}],"parentId":72}
+{"ts":"18:31:58.573","ctx":"Action","action":"ctx.outlook.mail.getHTMLBody","params":[0],"parentId":72}
+{"ts":"18:32:05.746","ctx":"Event","event":"QUIT","appliName":"POPUPS","appliInst":0}
+{"ts":"18:32:05.869","ctx":"State","type":"on","name":"POPUPS:QUIT","id":24,"action":"run"}
+{"ts":"18:32:05.879","ctx":"State","type":"on","name":"POPUPS:QUIT","id":24,"action":"set"}
+{"ts":"18:32:05.888","ctx":"Event","event":"END","appliName":"POPUPS","appliInst":0}
+{"ts":"18:32:05.927","ctx":"Event","event":"QUIT","appliName":"GLOBAL","appliInst":0}
+{"ts":"18:32:05.934","ctx":"State","type":"on","name":"GLOBAL:QUIT","id":0,"action":"run"}
+{"ts":"18:32:05.949","ctx":"State","type":"on","name":"GLOBAL:QUIT","id":0,"action":"set"}
+{"ts":"18:32:05.954","ctx":"State","type":"on","name":"GLOBAL:QUIT","id":26,"action":"run"}
+{"ts":"18:32:05.960","ctx":"State","type":"on","name":"GLOBAL:QUIT","id":26,"action":"set"}
+{"ts":"18:32:05.965","ctx":"State","type":"on","name":"GLOBAL:QUIT","id":33,"action":"run"}
+{"ts":"18:32:05.970","ctx":"State","type":"on","name":"GLOBAL:QUIT","id":33,"action":"set"}

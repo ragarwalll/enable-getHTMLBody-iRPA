@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+	<Identification>
+		<Version Value="2.0.0.173"/>
+	</Identification>
+	<Properties>
+		<Property Name="projectFile" Value="enable-getHTMLBody-iRPA.debug.psc"/>
+		<Property Name="projectVersion" Value="1.0"/>
+		<Property Name="projectName" Value="enable-getHTMLBody-iRPA"/>
+		<Property Name="projectId" Value="380e02fc-8c72-4e72-bcc3-1d4e13c83f0d"/>
+		<Property Name="projectDate" Value="28/07/2020"/>
+		<Property Name="projectLabel" Value="enable-getHTMLBody"/>
+		<Property Name="projectClient" Value="SAP"/>
+		<Property Name="licenceURL" Value=""/>
+		<Property Name="archiveFile" Value=""/>
+		<Property Name="productVersion" Value="2.0.0.173"/>
+		<Property Name="sdkVersion" Value="2.0.0.173"/>
+		<Property Name="exportDate" Value="28/7/2020"/>
+		<Property Name="IsTrial" Value="True"/>
+		<Property Name="validity" Value=""/>
+		<Property Name="cyphering" Value="0"/>
+		<Property Name="compression" Value="1"/>
+	</Properties>
+	<Properties Name="scenario0">
+		<Property Name="appliName" Value="GLOBAL" Type="1"/>
+		<Property Name="scenario" Value="EmailWorflow" Type="1"/>
+		<Property Name="name" Value="" Type="1"/>
+		<Property Name="id" Value="3fd57d99-6ace-49a0-8bf3-afd7ce732568" Type="1"/>
+		<Property Name="timeout" Value="600" Type="1"/>
+		<Property Name="task" Value="1" Type="1"/>
+		<Property Name="contextRoot" Value="" Type="1"/>
+		<Property Name="input" Value="" Type="1"/>
+		<Property Name="output" Value="" Type="1"/>
+	</Properties>
+	<Keys Name="scenario0">
+	</Keys>
+	<Properties Name="authentication">
+		<Property Name="result" Value="MIIBJwYJKoZIhvcNAQcCoIIBGDCCARQCAQExDzANBgkqhkiG9w0BAQUFADAvBgkq
+hkiG9w0BBwGgIgQgQwB0AHgAdABEAGUAZgBhAHUAbAB0AE0AYQByAGsAAAAxgcww
+gckCAQEwJDAcMRowGAYDVQQDExFOTyBDRVJUIFNJR05BVFVSRQIEEjRWeDANBgkq
+hkiG9w0BAQUFADAMBggqhkiG9w0DBAUABIGADYgDWcoGGJsRJ5OVXARUuLjuVpsU
+nuGWiGVcjy69EqMs2ayriig2QvGa29dAyXsdi/xMk2kmnHufTuhvKpAXOD+TV7JF
+DeYWuYe/KUXToHyDtXXzWafvK7+bh64Qfl1mVdooY51GYQ7B8yxVunPiBH3iU04l
+nWWX3QJjgNDrugc=
+" Type="1"/>
+	</Properties>
+	<Keys Name="authentication">
+	</Keys>
+	<UpdatePackages>
+	</UpdatePackages>
+	<KeyNames Value="" Type="32771"/>
+	<KeyContent Value="" Type="32771"/>
+	<KeyProps Value="0895301820f85e4b5fa3a5593ae2e01b" Type="32771"/>
+</doc>
